@@ -19,6 +19,7 @@ yarn-error.log*
 .project
 tmp/
 typings/
+node_modules/@nativescript/ios/framework/internal/XCFrameworks.zip
 
 # Visual Studio Code
 .vscode/*
