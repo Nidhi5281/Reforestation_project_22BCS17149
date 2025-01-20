@@ -1,0 +1,44 @@
+{
+  "name": "stackblitz-nativescript-react",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/angular": "^19.0.0",
+    "@nativescript/core": "~8.8.6",
+    "@nativescript/google-maps": "^1.7.5",
+    "@nativescript/theme": "~3.0.2",
+    "@react-navigation/core": "^6.4.17",
+    "axios": "^1.7.9",
+    "node-libs-browser": "^2.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^19.0.0",
+    "react-native-maps": "^1.20.1",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.1.2",
+    "@angular/compiler-cli": "^19.1.1",
+    "@nativescript/android": "~8.8.6",
+    "@nativescript/ios": "~8.8.2",
+    "@nativescript/preview-cli": "1.0.2",
+    "@nativescript/stackblitz": "0.0.8",
+    "@nativescript/types": "~8.8.0",
+    "@nativescript/webpack": "~5.0.14",
+    "@ngtools/webpack": "^19.1.2",
+    "@types/axios": "^0.9.36",
+    "@types/node": "^22.10.7",
+    "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
+    "@types/react-dom": "^19.0.3",
+    "@types/react-native-maps": "^0.24.1",
+    "@types/react-navigation": "^3.0.8",
+    "typescript": "~4.8.4"
+  },
+  "scripts": {
+    "preview": "ns preview",
+    "android": "ns run android",
+    "ios": "ns run ios"
+  }
+}

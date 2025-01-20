@@ -1,0 +1,11 @@
+import { CircleOptions, GroundOverlayOptions, MarkerOptions, PolygonOptions, PolylineOptions, TileOverlayOptions } from '../';
+import { Color } from '@nativescript/core';
+export declare function hueFromColor(color: Color | UIColor): interop.Reference<number>;
+export declare function intoNativeMarkerOptions(options: MarkerOptions): GMSMarker;
+export declare function intoNativeCircleOptions(options: CircleOptions): GMSCircle;
+export declare function intoNativePolygonOptions(options: PolygonOptions): GMSPolygon;
+export declare function intoNativePolylineOptions(options: PolylineOptions): GMSPolyline;
+export declare function intoNativeGroundOverlayOptions(options: GroundOverlayOptions): GMSGroundOverlay;
+export declare function intoNativeTileOverlayOptions(options: TileOverlayOptions): void;
+export declare function deserialize(data: any): any;
+export declare function serialize(data: any): any;

@@ -1,0 +1,14 @@
+import { CircleOptions, GroundOverlayOptions, MarkerOptions, PolygonOptions, PolylineOptions, TileOverlayOptions } from '../';
+import { Color } from '@nativescript/core';
+import { JointType } from '../common';
+export declare function hueFromColor(color: Color | number): any;
+export declare function toJointType(type: number): JointType;
+export declare function intoNativeJointType(type: JointType): number;
+export declare function intoNativeMarkerOptions(options: MarkerOptions): com.google.android.gms.maps.model.MarkerOptions;
+export declare function intoNativeCircleOptions(options: CircleOptions): com.google.android.gms.maps.model.CircleOptions;
+export declare function intoNativePolygonOptions(options: PolygonOptions): com.google.android.gms.maps.model.PolygonOptions;
+export declare function intoNativePolylineOptions(options: PolylineOptions): com.google.android.gms.maps.model.PolylineOptions;
+export declare function intoNativeGroundOverlayOptions(options: GroundOverlayOptions): com.google.android.gms.maps.model.GroundOverlayOptions;
+export declare function intoNativeTileOverlayOptions(options: TileOverlayOptions): com.google.android.gms.maps.model.TileOverlayOptions;
+export declare function deserialize(data: any): any;
+export declare function serialize(data: any): any;
